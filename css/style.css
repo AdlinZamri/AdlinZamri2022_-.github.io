@@ -878,6 +878,15 @@ body.nav-active .nav__list-item:nth-child(10) {
 	background-size: cover;
 	overflow: hidden;
 }
+.scroll-img-copy {
+	width: 800px;
+	max-width: 100%;
+	min-width: 250px;
+	height: 40vh;
+	min-height: 250px;
+	background-size: cover;
+	overflow: hidden;
+}
 .uncover__img {
 	width: 100%;
 	height: 100%;
@@ -3361,6 +3370,9 @@ a:hover{
 		font-size: 5vw;
 	}
 	.scroll-img {
+		height: 30vh;
+	}
+	.scroll-img-copy {
 		height: 30vh;
 	}
 	#projects-grid{
