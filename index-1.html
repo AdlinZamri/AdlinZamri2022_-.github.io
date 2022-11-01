@@ -60,7 +60,7 @@
 		<div class="loader__figure"></div>
 	</div>
 		
-	<div class="main">	
+	<div class="main content">	
 		
 	<!-- Nav and Logo
 	================================================== -->
@@ -89,10 +89,10 @@
 	<div class="nav">
 		<div class="nav__content">
 			<ul class="nav__list">
-				<li class="nav__list-item"><a data-toggle="collapse" href="#collapseSub" role="button" aria-expanded="false" aria-controls="collapseSub">work</a>
+				<li class="nav__list-item active-nav"><a data-toggle="collapse" href="#collapseSub" role="button" aria-expanded="false" aria-controls="collapseSub">work</a>
 					<ul class="sub-links collapse" id="collapseSub">
 						<li><a href="index.html">slice revealer</a></li>
-						<li><a href="index-1.html">scrolling letters</a></li>
+						<li class="active-nav"><a href="index-1.html">scrolling letters</a></li>
 						<li><a href="index-2.html">slider hero</a></li>
 						<li><a href="index-3.html">video showcase</a></li>
 						<li><a href="index-4.html">masonry portfolio</a></li>
@@ -102,7 +102,7 @@
 				</li>
 				<li class="nav__list-item"><a href="studio.html">studio</a></li>
 				<li class="nav__list-item"><a href="blog.html">journal</a></li>
-				<li class="nav__list-item active-nav"><a href="contact.html">contact</a></li>
+				<li class="nav__list-item"><a href="contact.html">contact</a></li>
 			</ul>
 		</div>
 	</div>	
@@ -110,122 +110,108 @@
 	<!-- Primary Page Layout
 	================================================== -->
 
-	<div class="section big-65-height over-hide">
-		<div class="hero-center-wrap z-bigger">
+	<div class="section full-height">
+		<div class="hero-center-wrap down-wrap z-bigger">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 parallax-fade-top">
-						<p>get in touch</p>	
-						<h2>Always Ready<br>to Work</h2>
+						<p>we do magic</p>	
+						<h1>discover our<br>works</h1>
+						<a href="#project-1" class="span-down tipped" data-gal="m_PageScroll2id" data-ps2id-offset="1" data-title="<em>scroll down</em>" data-tipper-options='{"direction":"top","follow":"true","margin":35}'>
+							<div class="typing_loader"></div>
+						</a>
 					</div>
 				</div>	
 			</div>
 		</div>
 	</div>
 
-	<div class="section padding-bottom-big">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="sec-titile">
-						<div class="subtitle">
-							 drop us a line
-						</div>	
-					</div>	
-				</div>
-				<div class="col-md-8 mt-5 mt-md-0">
-					<form name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
-						<div class="row">
-							<div class="col-lg-6">
-								<label for="name"> 
-									<span class="error" id="err-name">please enter name</span>
-								</label>
-								<input name="name" id="name" type="text"   placeholder="Your Name: *"/>
-							</div>
-							<div class="col-lg-6 mt-4 mt-lg-0">
-								<label for="email"> 
-									<span class="error" id="err-email">please enter e-mail</span>
-									<span class="error" id="err-emailvld">e-mail is not a valid format</span>
-								</label>
-								<input name="email" id="email" type="text"  placeholder="E-Mail: *"/>
-							</div>
-							<div class="col-lg-12 mt-4">
-								<label for="message"></label>
-								<textarea name="message" id="message" placeholder="Tell Us Everything"></textarea>
-							</div>
-							<div class="col-lg-12 mt-4">
-								<div id="button-con"><button class="send_message js-tilt" id="send" data-lang="en" data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>submit</span></button></div>					
-							</div>	
-							<div class="col-lg-12 mt-4">
-								<div class="error" id="err-form"><span>There was a problem validating the form please check!</span></div>
-								<div class="error" id="err-timedout">The connection to the server timed out!</div>
-								<div class="error" id="err-state"></div>
-								<div id="ajaxsuccess">Successfully sent!!</div>
-							</div>	
-						</div>	
-					</form>	
-				</div>
-			</div>
-		</div>
+	<div class="pag-3d-work-wrap">
+		<a href="#project-1"><div class="pag-3d-line tipped" data-title="<em>Kolektif</em>" data-tipper-options='{"direction":"bottom","follow":"true","margin":35}'></div></a>
+		<a href="#project-2"><div class="pag-3d-line tipped" data-title="<em>Nike Dunes</em>" data-tipper-options='{"direction":"bottom","follow":"true","margin":35}'></div></a>
+		<a href="#project-3"><div class="pag-3d-line tipped" data-title="<em>Middletown</em>" data-tipper-options='{"direction":"bottom","follow":"true","margin":35}'></div></a>
+		<a href="#project-4"><div class="pag-3d-line tipped" data-title="<em>Ceramic W-G</em>" data-tipper-options='{"direction":"bottom","follow":"true","margin":35}'></div></a>
+		<a href="#project-5"><div class="pag-3d-line tipped" data-title="<em>Manifesto</em>" data-tipper-options='{"direction":"bottom","follow":"true","margin":35}'></div></a>
 	</div>
 
-	<div class="section padding-bottom-big">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="sec-titile">
-						<div class="subtitle">
-							contact details
-						</div>	
-					</div>	
-				</div>
-				<div class="col-md-8 mt-5 mt-md-0">
-					<div class="row">
-						<div class="col-lg-6 con-det">
-							<h6>Email:</h6>
-							<p>office@elpis.com</p>
-							<p>support@elpis.com</p>
-						</div>
-						<div class="col-lg-6 mt-4 mt-lg-0 con-det">
-							<h6>Tel:</h6>
-							<p>+1 234 78364236</p>
-							<p>+1 173 83559208</p>
-						</div>
-					</div>
+	<div class="section full-height change-full-height-on-mob content__section" id="project-1">
+		<div class="center-wrap">
+			<div class="container">
+				<div class="row">
+					<a href="project.html">
+						<div class="col-md-12 image-3d js-tilt" data-tilt-perspective="800" data-tilt-speed="700" data-tilt-max="10">
+							<img class="content__img" src="img/portfolio/4.jpg" alt="img"/>
+							<h2 class="content__text">Kolektif</h2>
+							<div class="content-subtext"><span>Branding, Fashion</span></div>
+						</div>		
+					</a>
 				</div>
 			</div>
-		</div>
+		</div>	
 	</div>
 
-	<div class="section">
-		<div id="cd-google-map">
-			<div id="google-container"></div>
-			<div id="cd-zoom-in"></div>
-			<div id="cd-zoom-out"></div>
-		</div>
-	</div>
-
-	<div class="section padding-top-big">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="sec-titile">
-						<div class="subtitle">
-							stay tunned
-						</div>	
-					</div>	
-				</div>
-				<div class="col-md-8 mt-5 mt-md-0">
-					<div class="subscribe">
-						<input type="text" placeholder="your e-mail here"/>
-						<button data-lang="en"><span class="fa-long-arrow-right"></span></button>
-					</div>
-					<div class="subscribe-text">
-						<p>* we promise that we won´t spam you, never.</p>
-					</div>
+	<div class="section full-height change-full-height-on-mob content__section" id="project-2">
+		<div class="center-wrap">
+			<div class="container">
+				<div class="row">
+					<a href="project.html">
+						<div class="col-md-12 image-3d js-tilt" data-tilt-perspective="800" data-tilt-speed="700" data-tilt-max="10">
+							<img class="content__img" src="img/portfolio/6.jpg" alt="img"/>
+							<h2 class="content__text">Nike Dunes</h2>
+							<div class="content-subtext"><span>Photography, Retouching</span></div>
+						</div>		
+					</a>
 				</div>
 			</div>
-		</div>
+		</div>	
+	</div>
+
+	<div class="section full-height change-full-height-on-mob content__section" id="project-3">
+		<div class="center-wrap">
+			<div class="container">
+				<div class="row">
+					<a href="project.html">
+						<div class="col-md-12 image-3d js-tilt" data-tilt-perspective="800" data-tilt-speed="700" data-tilt-max="10">
+							<img class="content__img" src="img/portfolio/7.jpg" alt="img"/>
+							<h2 class="content__text">Middletown</h2>
+							<div class="content-subtext"><span>Branding, Graphic Design</span></div>
+						</div>		
+					</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="section full-height change-full-height-on-mob content__section" id="project-4">
+		<div class="center-wrap">
+			<div class="container">
+				<div class="row">
+					<a href="project.html">
+						<div class="col-md-12 image-3d js-tilt" data-tilt-perspective="800" data-tilt-speed="700" data-tilt-max="10">
+							<img class="content__img" src="img/portfolio/8.jpg" alt="img"/>
+							<h2 class="content__text">Ceramic W-G</h2>
+							<div class="content-subtext"><span>Crafts, Industrial Design</span></div>
+						</div>		
+					</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="section full-height change-full-height-on-mob content__section" id="project-5">
+		<div class="center-wrap">
+			<div class="container">
+				<div class="row">
+					<a href="project.html">
+						<div class="col-md-12 image-3d js-tilt" data-tilt-perspective="800" data-tilt-speed="700" data-tilt-max="10">
+							<img class="content__img" src="img/portfolio/9.jpg" alt="img"/>
+							<h2 class="content__text">Manifesto</h2>
+							<div class="content-subtext"><span>Branding, Graphic Design</span></div>
+						</div>	
+					</a>
+				</div>
+			</div>
+		</div>	
 	</div>
 
 	<div class="section padding-top-big padding-bottom">
@@ -255,14 +241,7 @@
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script> 
-	<script src="js/contact.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAvpnlHRidMIU374bKM5-sx8ruc01OvDjI"></script>
-	<!-- ==================
-		Go to this link to activated your google map API KEY https://developers.google.com/maps/documentation/javascript/tutorial#api_key 
-		your key replace in script link for google map after .../maps/api/js?key=HERE_YOUR_API_KEY
-		coordinates for map you can change in google-map.js file 
-	================== -->
-	<script src="js/google-map.js"></script> 
+	<script src="js/scrollingLettersAnimation.js"></script> 
 	<script src="js/custom.js"></script> 
 	
 <!-- End Document
